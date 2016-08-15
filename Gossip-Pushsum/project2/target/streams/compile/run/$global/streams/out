@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0mRunning project2.Gossip 2897 full pushsum[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/chen/Java_Applications/proj2/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/home/chen/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/chen/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/chen/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread mysystem-scheduler-1 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread mysystem-scheduler-1 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread mysystem-akka.actor.default-dispatcher-5 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread mysystem-akka.actor.default-dispatcher-5 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread mysystem-akka.actor.default-dispatcher-3 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread mysystem-akka.actor.default-dispatcher-3 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread mysystem-akka.actor.default-dispatcher-5 to terminate.[0m

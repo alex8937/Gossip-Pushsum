@@ -1,0 +1,49 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2056bc1a, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/local/java/jdk1.8.0_60/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_60/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_60/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_60/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_60/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_60/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_60/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_60/jre/classes:/home/chen/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:3: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:4: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Actor[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:5: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Props[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:6: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorSystem[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:8: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorRef[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:17: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m            val system =ActorSystem("mysystem") [0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/chen/Java_Applications/proj2/ServerBitminer/src/main/scala/Pi.scala:36: not found: type Actor[0m
+[0m[[31merror[0m] [0mabstract class node extends Actor{}[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m7 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
