@@ -22,7 +22,7 @@ A. Flooding not working due to transimission
 
 B. Tree affected by its robustness
 
-C. Pushsum:
+C. Pushsum:  
 
 weight: w_i(t = 0) = all 1s for sum/ one 1 rest 0s for average
 
@@ -34,7 +34,9 @@ s_i(t+1) = 1/2 * s_i(t) + sum(1/2 * s_j(t))     j exists for node i receiving in
 
 Result:
 
-lim(t->oo) [s_i(t) / w_i(t)] = average or sum depending on w_i initialization.
+lim(t->oo) [s_i(t) / w_i(t)] = average or sum depending on w_i initialization.  
+
+Convergence time: O(logN)
 
 There are two versions of code for this project uploaded, the normal and the
 bonus version. In the normal version, number of nodes, topology and algorithm are
