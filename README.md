@@ -1,12 +1,19 @@
 # Gossip-Pushsum
 
 Dissemination model:
+
 1. Flood + Time to live;  
+
 Con: Information retransimission 
+
 2. Tree-based; 
+
 Pro: Minimum number of message transimission for balanced tree;
+
 Con: Not robust enough
+
 3. Gossip network (Randomization algorithm: worst case -> average case);
+
 Pro:  i. Asymptoically as efficient as balanced tree   ii. hard to be defeated by adversary
 
 There are two versions of code for this project uploaded, the normal and the
