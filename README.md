@@ -1,4 +1,4 @@
-# Gossip-Pushsum
+# Gossip-Pushsum Notes
 
 Dissemination model:
 
@@ -6,13 +6,13 @@ Dissemination model:
 
 Con: Information retransimission 
 
-B. Tree-based; 
+### B. Tree-based; 
 
 Pro: Minimum number of message transimission for balanced tree;
 
 Con: Not robust enough
 
-C. Gossip network (Randomization algorithm: worst case -> average case);
+### C. Gossip network (Randomization algorithm: worst case -> average case);
 
 Pro:  i. Asymptoically as efficient as balanced tree   ii. hard to be defeated by adversary
 
